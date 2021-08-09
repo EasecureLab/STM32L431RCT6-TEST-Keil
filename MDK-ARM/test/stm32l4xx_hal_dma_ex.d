@@ -20,6 +20,9 @@ test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_g
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h
+test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc.h
+test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_adc.h
+test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_adc_ex.h
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_exti.h
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h
 test\stm32l4xx_hal_dma_ex.o: ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash_ex.h
