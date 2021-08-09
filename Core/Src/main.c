@@ -60,7 +60,7 @@ void SystemClock_Config(void);
 uint8_t data[8]="12345678";
 
 
-uint32_t s_adc_dma_buf[8]={0};
+uint32_t s_adc_dma_buf[9600]={0};
 /* USER CODE END 0 */
 
 /**
@@ -97,7 +97,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	
 	HAL_ADCEx_Calibration_Start(&hadc1,ADC_SINGLE_ENDED);	
-	HAL_ADC_Start_DMA(&hadc1,(uint32_t *)s_adc_dma_buf,1);
+	HAL_ADC_Start_DMA(&hadc1,(uint32_t *)s_adc_dma_buf,9600);
   /* USER CODE END 2 */
 
   /* Infinite loop */
